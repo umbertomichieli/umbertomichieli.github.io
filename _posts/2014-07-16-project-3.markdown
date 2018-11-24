@@ -1,0 +1,9 @@
+---
+title: Awards
+layout: default
+modal-id: 3
+img: awards.png
+alt: image-alt
+description: <b> aug 2018 - </b> Awarded fellowship from the organizers of "The Cornell, Maryland, Max Planck Pre-doctoral Research School", Saarbrucken. <br/> <b> jul 2018 - </b>  Awarded fellowship granted by Technische Universitat Dresden (TUD) for "International School and Conference on Network Science (NetSci)", Paris. <br/> <b> 2018 - </b>  Awarded scholarship grant "Mille e una lode" for merit, offered by University of Padova. <br/> <b> 2017 - </b> Finalist at "Accenture Innovation Game", business game of project management, Milan.
+
+---

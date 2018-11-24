@@ -1,0 +1,1 @@
+- images for portfolio are 900x650
