@@ -1,0 +1,2 @@
+- images for portfolio are 900x650
+- images for profile: 256x256
