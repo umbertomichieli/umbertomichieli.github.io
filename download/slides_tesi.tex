@@ -1,0 +1,92 @@
+% Compile it with PDFLatTeX
+
+\documentclass[]{beamer}
+\usetheme{CambridgeUS} % theme
+\usepackage[italian]{babel}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{float} %gestisce l'inserimento delle immagini
+\usepackage{setspace} %consente di modificare l'interlinea
+\usepackage{subfigure}
+\usepackage{longtable}
+\usepackage{amssymb}
+\usepackage{wrapfig}
+\usepackage{url}
+\usepackage{array}
+\usepackage[T1]{fontenc} 
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\newcommand{\argmax}{\operatornamewithlimits{argmax}}
+\definecolor{blu}{rgb}{0.216,0.216,0.6745}
+
+\setbeamercovered{transparent} % \pause text visibility
+
+%------------------------------ TITLE PAGE DECLARATION
+\title[Correlation analysis of EEG and EMG]{\textsc{Analisi della correlazione tra segnali EEG ed EMG}}
+\author[Umberto Michieli]{Laureando: Umberto Michieli\\Relatore: Leonardo Badia\\Correlatrice: Giulia Cisotto}
+\date[18/07/2016]{18/07/2016\\Anno accademico 2015/2016}
+\institute[]{Corso di Laurea in Ingegneria dell'Informazione\\ Dipartimento di Ingegneria dell'Informazione}
+%\logo{\includegraphics[width=1cm]{images/logo_unipd.pdf}}
+\titlegraphic{\begin{flushleft}
+\includegraphics[scale=0.2]{images/dei_logo.pdf} \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad  \  \includegraphics[scale=0.07]{images/logo_unipd.pdf}\end{flushleft}
+%\begin{flushright}
+%\includegraphics[scale=1]{images/logo_unipd.pdf}\end{flushright}
+}
+
+%------------------------------ /TITLE PAGE DECLARATION
+
+\begin{document}
+\transduration{1}
+
+
+\frame{\titlepage} %------------------------------ TITLE PAGE
+
+
+\section*{Sommario}
+\begin{frame} %------------------------------ OUTLINE
+\transwipe[direction=0] % book-like transition
+\frametitle{Sommario}
+\tableofcontents
+\end{frame}
+
+
+\section{Obiettivo}
+
+\begin{frame}
+\transwipe[direction=0]
+%\frametitle{}
+
+EEG=Elettroencefalogramma\\
+EMG=Elettromiogramma\\
+APB=muscolo abduttore breve del pollice
+\begin{block}{}
+Gli eventi patologici \textit{burst} nell'EMG sono provocati da uno stimolo cerebrale o locale? \\ \textcolor{blu}{$\Longrightarrow$} Analisi di correlazione e coerenza tra EEG ed EMG
+
+\end{block}
+
+EMG APB sano, attività di fondo \quad \quad EMG APB con eventi burst
+
+\end{frame}
+
+
+\section{Conclusioni e sviluppi futuri}
+\begin{frame}
+\transwipe[direction=0]
+\frametitle{}
+\begin{block}{Conclusioni}
+\begin{itemize}
+\item massimo di correlazione con EEG in anticipo in media di 10 ms su EMG, confermando la fisiologia umana
+\item coerenza caso sano: picchi di coerenza a 20 Hz e a frequenze inferiori
+\item coerenza caso patologico: picchi di coerenza significativa a 20 e attorno a 35-40 Hz
+\end{itemize}
+\end{block}
+
+\begin{block}{Sviluppi futuri}
+\begin{itemize}
+\item allargare lo studio per rendere le stime più robuste
+\item verificare se gli eventi \textit{burst} sono volontari oppure no
+\end{itemize}
+\end{block}
+\end{frame}
+
+\end{document}
