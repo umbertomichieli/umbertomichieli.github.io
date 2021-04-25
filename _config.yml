@@ -2,7 +2,7 @@
 title: Umberto Michieli
 email: umberto.michieli1@gmail.com
 url: https://example.github.io
-description: "I am a Ph.D. student at the Department of Information Engineering, University of Padova." #"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Ph.D. candidate at University of Padova. AI Research Intern at Samsung Research UK" #"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
 skills1: "Ph.D. in Information Engineering"
 skills2: "AI Research Intern at Samsung Research UK" #"Web Developer - Graphic Artist - User Experience Designer"
@@ -36,10 +36,12 @@ footer:
   copyright: Umberto Michieli
   location: Location
   social: Around the Web
-  #credits: Credits
+  credits: Credits
  
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+  - title: envelope
+    url: mailto:umberto.michieli@dei.unipd.it
   - title: google-scholar
     url: https://scholar.google.it/citations?user=aWD8qGwAAAAJ&hl=en
   - title: researchgate
@@ -59,8 +61,10 @@ address:
   - line: Italy
 
 # Credits content
-# credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Freelancer Bootstrap theme by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+plugins:
+  - jekyll-seo-tag
