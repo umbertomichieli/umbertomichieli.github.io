@@ -57,8 +57,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: London
-  - line: UK
+  - line: Somewhere in London (UK)
+#  - line: UK
 
 # Credits content
 credits: 'Freelancer Bootstrap theme by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
