@@ -1,11 +1,11 @@
 # Site settings
-title: Umberto Michieli
+title: Umberto Michieli, Ph.D.
 email: umberto.michieli1@gmail.com
 url: https://example.github.io
-description: "Ph.D. candidate at University of Padova. AI Research Intern at Samsung Research UK" #"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Ph.D. at University of Padova, Research Scientist/Engineer at Samsung Research UK" #"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
-skills1: "Ph.D. in Information Engineering"
-skills2: "Incoming: Senior Research Engineer at Samsung Research UK" #"Web Developer - Graphic Artist - User Experience Designer"
+#skills1: "Ph.D. in Information Engineering"
+skills1: "Senior Research Engineer/Scientist at Samsung Research UK" #"Web Developer - Graphic Artist - User Experience Designer"
 meta_author: Michieli Umberto
 
 # Google webmaster tools
@@ -57,8 +57,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 35129 Padova
-  - line: Italy
+  - line: London
+  - line: UK
 
 # Credits content
 credits: 'Freelancer Bootstrap theme by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
